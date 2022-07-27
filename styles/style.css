@@ -27,6 +27,13 @@ h4 {
   margin: 10px;
   box-shadow: 10px 10px 5px rgb(27, 27, 27);
 }
+/* img:hover {
+  transition: all 2s ease;
+  vertical-align: middle;
+  position: relative;
+  transform: scale(1);
+  -webkit-transform: scale(1.5);
+} */
 .images {
   width: 80%;
   height: auto;
@@ -86,13 +93,13 @@ p {
   float: left;
   padding-left: 10px;
   margin: 10px;
-  border:1px solid black;
+  border: 1px solid black;
   box-shadow: 10px 10px 5px rgb(73, 70, 70);
   border-radius: 5px;
 }
-.items:hover{
-  background-color:#e44c32;
-  color:#fff;
+.items:hover {
+  background-color: #e44c32;
+  color: #fff;
   box-shadow: 10px 10px 5px rgb(73, 70, 70);
 }
 
