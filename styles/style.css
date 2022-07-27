@@ -1,0 +1,196 @@
+.img_logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+h1,
+h2 {
+  color: #363434;
+  font-family: "Athelas Regular", "Times New Roman";
+  font-size: 200%;
+  margin-top: 10px;
+  text-align: center;
+}
+h3 {
+  font-family: "Athelas Regular", "Times New Roman";
+  font-size: 150%;
+  padding-top: 30px;
+  text-align: center;
+}
+h4{
+  font-family: "Athelas Regular", "Times New Roman";
+  font-size: 150%;
+  padding-top: 10px;
+  float:left;
+  text-align: center;
+}
+
+.images {
+  width: 80%;
+  height: auto;
+  margin-left: 200px;
+  padding: 15px;
+}
+
+img {
+  border: 1px solid black;
+}
+
+.img_noodles {
+  width: 300px;
+  height: 200px;
+}
+.img_fish {
+  width: 300px;
+  height: 200px;
+}
+.img_shrimp {
+  width: 300px;
+  height: 200px;
+}
+p {
+  color: rgb(56, 55, 55);
+  text-align: center;
+  font-family: Athelas Regular;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-right: 20px;
+  /* padding-bottom: 10px; */
+}
+.foods {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  padding-left:40px;
+  overflow-y: auto;
+}
+
+.row{
+  width:100%
+}
+.content{
+  width:100%;
+  height:auto;
+}
+.contentabout{
+  width:100%;
+  height:500px;
+}
+.items{  
+  height:auto;
+  width: 30%;
+  float:left; 
+  padding-left: 10px;
+  margin:10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: montserrat;
+  background: #f1d1c7;
+}
+nav {
+  background: #f14414;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 26px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,
+a:hover {
+  background: #fff;
+  transition: 0.5s;
+  color: #f14414;
+}
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 968px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 875px) {
+  .checkbtn {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #8a8c8f;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #8a8c8f;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+footer {
+  background-color: #f14414;
+  color: #fff;
+  height: 60px;
+  margin-top: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* position: fixed; */
+  
+}
+
+
