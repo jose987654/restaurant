@@ -88,8 +88,8 @@ p {
   float: left;
   padding-left: 10px;
   margin: 10px;
-  border: 1px solid black;
-  box-shadow: 10px 10px 5px rgb(73, 70, 70);
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 2px rgb(126, 123, 123);
   border-radius: 5px;
 }
 .items:hover {
