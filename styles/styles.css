@@ -4,43 +4,13 @@
 }
 h1,
 h2 {
-  color: #363434;
+  color: #000000;
   font-family: "Athelas Regular", "Times New Roman";
-  font-size: 200%;
-  margin-top: 10px;
-  text-align: center;
 }
-h3 {
-  font-family: "Athelas Regular", "Times New Roman";
-  font-size: 150%;
-  padding-top: 30px;
-  text-align: center;
+.img_food {
+  width: 300px;
+  height: 200px;
 }
-h4 {
-  font-family: "Athelas Regular", "Times New Roman";
-  font-size: 150%;
-  padding-top: 10px;
-  float: left;
-  text-align: center;
-}
-.custom {
-  margin: 10px;
-  box-shadow: 10px 10px 5px rgb(27, 27, 27);
-}
-
-.images {
-  width: 80%;
-  height: auto;
-  margin-left: 200px;
-  padding: 15px;
-}
-
-img {
-  /* box-shadow: 10px 10px 5px rgb(0, 0, 0); */
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
 .img_noodles {
   width: 300px;
   height: 200px;
@@ -53,50 +23,6 @@ img {
   width: 300px;
   height: 200px;
 }
-p {
-  color: rgb(56, 55, 55);
-  text-align: center;
-  font-family: Athelas Regular;
-  font-size: 25px;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-right: 20px;
-  /* padding-bottom: 10px; */
-}
-.foods {
-  width: 100%;
-  height: auto;
-  padding: 15px;
-  padding-left: 40px;
-  overflow-y: auto;
-}
-
-.row {
-  width: 100%;
-}
-.content {
-  width: 100%;
-  height: auto;
-}
-.contentabout {
-  width: 100%;
-  height: 500px;
-}
-.items {
-  height: auto;
-  width: 30%;
-  float: left;
-  padding-left: 10px;
-  margin: 10px;
-  border: 1px solid black;
-  box-shadow: 10px 10px 5px rgb(73, 70, 70);
-  border-radius: 5px;
-}
-.items:hover {
-  background-color: #e44c32;
-  color: #fff;
-  box-shadow: 10px 10px 5px rgb(73, 70, 70);
-}
 
 * {
   padding: 0;
@@ -107,10 +33,9 @@ p {
 }
 body {
   font-family: montserrat;
-  background: #f1d1c7;
 }
 nav {
-  background: #f14414;
+  background: #ef4e22;
   height: 80px;
   width: 100%;
 }
@@ -132,16 +57,16 @@ nav ul li {
 }
 nav ul li a {
   color: #fff;
-  font-size: 26px;
+  font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
 }
 a.active,
 a:hover {
-  background: #f1d1c7;
+  background: #fff;
   transition: 0.5s;
-  color: #f14414;
+  color: #ef4e22;
 }
 .checkbtn {
   font-size: 30px;
@@ -195,37 +120,37 @@ a:hover {
     left: 0;
   }
 }
-footer {
-  background-color: #f14414;
-  color: #fff;
-  height: 60px;
-  margin-top: 20px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  /* position: fixed; */
-}
 
 .form {
-  /* color:#000000; */
   display: flex;
   flex-direction: column;
   margin: 1rem 5rem 0rem 0rem;
   padding: 1rem;
+
   justify-content: center;
   text-align: center;
-  /* border: 1px solid red; */
+  /*border: 1px solid red;*/
 }
 .word {
   color: rgb(173, 16, 16);
 }
 
+.input {
+  width: 60%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  margin-left: 17rem;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
 .button {
   border-radius: 4px;
   width: 22%;
   margin: 6px 0;
-  margin-left: 20rem;
+  margin-left: 28rem;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -233,27 +158,12 @@ footer {
 }
 .heading {
   font-family: Athelas Regular;
-  font-size: 40px;
+  font-size: 200%;
   text-align: center;
   padding: 0.5em;
 }
-.forminput{
-  background-color: #fff;
-  width: 900px;
-  margin-left: 250px;
-  /* display: flexbox; */
-  /* color: #000000; */
-  border: 1px solid red;
-}
-.formlabel{
-  background-color: #fff;
-  width: 900px;
-  /* margin-left: 250px; */
-  /* display: flexbox; */
-  /* color: #000000; */
-  border: 1px solid red;
-}
-h5 {
+
+h4 {
   text-align: center;
   font-size: 140%;
   margin-top: 2rem;
@@ -264,16 +174,12 @@ h5 {
   gap: 3rem;
   margin: 2rem 7rem 8rem 7rem;
   /* padding: 0px 0px 10px 10px; */
-  height: 900px;
 }
 
 .figure {
   margin: 1rem 0rem 1rem 1rem;
 }
-.reserves{
-  width:fit-content;
-  margin-left:290px;
-}
+
 .reserveContainer {
   display: flex;
   flex-direction: column;
@@ -292,27 +198,14 @@ h5 {
   font-size: 120%;
 }
 .textArea {
-  width: 60%;
-  margin-left: 10rem;
+  width: 65%;
+  margin-left: 15rem;
 }
-.input {
-  width: 60%;
-  padding: 10px 15px;
-  margin: 10px 0;
-  margin-left: 10rem;
-  display: block;
-  /* border: 1px solid #ccc; */
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 15px;
-  color:#ff0000;
-}
-
 #places {
   width: 40%;
   padding: 10px 15px;
   margin: 10px 0;
-  margin-left: 10rem;
+  margin-left: 25rem;
   display: block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -341,4 +234,3 @@ h5 {
   background: #55acee;
   color: white;
 }
-
